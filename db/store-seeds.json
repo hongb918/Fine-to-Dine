@@ -1,0 +1,27 @@
+[
+    {
+        "cuisine": "Mexican",
+        "cuisineStores": [
+            {
+                "name": "Campuzano",
+                "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+                "tags": [
+                    "fajitas",
+                    "burritos",
+                    "tacos"
+                ],
+                "location": "2618 Oak Lawn Ave, Dallas, TX 75219",
+                "zipcode": 75219,
+                "hours": {
+                    "time": "10AM-10:20PM",
+                    "days": ["TUES", "WED", "THUR", "FRI", "SAT"]
+                },
+                "reservations": true,
+                "delivery": false,
+                "takeOut": true,
+                "officalSite": "campuzanomexicanfood.com",
+                "phone": "(214) 526-0100"
+            }
+        ]
+    }
+]
