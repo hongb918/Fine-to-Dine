@@ -1,0 +1,72 @@
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-gap: 16px;
+}
+
+
+.cards{
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.font{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.buttonContainer{
+    padding: 20px 0px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.inputParent{
+    padding: 10px 0px;
+}
+
+.form{
+    width: 50%
+}
+
+.input{
+    width: 100%
+}
+
+.cancel{
+    background-color: red;
+    color: white;
+}
+
+.submit{
+    background-color: #007bff;
+    color: white;
+}
+
+.cardButtonsParent{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.removeFormMargin{
+    margin: 0; 
+}

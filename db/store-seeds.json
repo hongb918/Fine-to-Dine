@@ -1,27 +1,101 @@
 [
     {
+        "name": "Campuzano",
         "cuisine": "Mexican",
-        "cuisineStores": [
-            {
-                "name": "Campuzano",
-                "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
-                "tags": [
-                    "fajitas",
-                    "burritos",
-                    "tacos"
-                ],
-                "location": "2618 Oak Lawn Ave, Dallas, TX 75219",
-                "zipcode": 75219,
-                "hours": {
-                    "time": "10AM-10:20PM",
-                    "days": ["TUES", "WED", "THUR", "FRI", "SAT"]
-                },
-                "reservations": true,
-                "delivery": false,
-                "takeOut": true,
-                "officalSite": "campuzanomexicanfood.com",
-                "phone": "(214) 526-0100"
-            }
-        ]
+        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "tags": [
+            "fajitas",
+            "burritos",
+            "tacos"
+        ],
+        "location": "2618 Oak Lawn Ave, Dallas, TX 75219",
+        "zipcode": 75219,
+        "hours": "10AM-10:20PM",
+        "days": [
+                "TUES",
+                "WED",
+                "THUR",
+                "FRI",
+                "SAT"
+        ],
+        "reservations": true,
+        "delivery": false,
+        "takeOut": true,
+        "officalSite": "campuzanomexicanfood.com",
+        "phone": "(214) 526-0100"
+    },
+    {
+        "name": "Guy Fieri's Flavortown Kitchen",
+        "cuisine": "American",
+        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "tags": [
+            "burgers",
+            "sandwiches",
+            "lunch"
+        ],
+        "location": "8580 TX-121, Frisco, TX 75034",
+        "zipcode": 7034,
+        "hours": "11AM-10PM",
+        "days": [
+                "MON",
+                "TUES",
+                "WED",
+                "THUR",
+                "FRI",
+                "SAT",
+                "SUNDAY"
+            ]
+        ,
+        "reservations": false,
+        "delivery": false,
+        "takeOut": false,
+        "officalSite": "guysflavortownkitchen.com"
+    },
+    {
+        "name": "Carbone",
+        "cuisine": "Italian",
+        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "tags": [
+            "pasta",
+            "pizza",
+            "fine dining"
+        ],
+        "location": "1617 Hi Line Dr Suite 395 Suite 390, Dallas, TX 75207",
+        "zipcode": 75270,
+        "hours": "5pm-11pm",
+        "days": [
+                "TUES",
+                "WED",
+                "THUR",
+                "FRI",
+                "SAT",
+                "SUN"
+            ],
+        "reservations": true,
+        "delivery": false,
+        "takeOut": true,
+        "officalSite": "campuzanomexicanfood.com",
+        "phone": "(214) 526-0100"
+    },
+    {
+        "name": "Thai Lotus Kitchen",
+        "cuisine":"Thai",
+        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "tags": [
+            "pad thai",
+            "tom yum soup",
+            "spring rolls"
+        ],
+        "location": "3851 Cedar Springs Rd, Dallas, TX 75219",
+        "zipcode": 75219,
+        "hours": "11AM-10PM",
+        "days": [
+                "Everyday"
+            ],
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "officalSite": "http://thailotuskitchen.com/",
+        "phone": "(214) 520-9385"
     }
 ]
