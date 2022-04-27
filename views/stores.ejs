@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="/style.css">
+    <%= name %>
+    <% store.forEach(store=> { %>
+        <% if (store.name===name ) { %>
+            <br>
+            <%=store.location %>
+            <br>
+            <span class="tags"><%=store.tags %></span>
+            <br>
+            <%=store.hours %>
+            <div class="cardButtonsParent">
+                <a class="button submit font" href="/<%=store.id%>">Edit</a>
+            </div>
+        <% } %>
+    <% }) %>

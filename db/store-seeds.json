@@ -2,11 +2,11 @@
     {
         "name": "Campuzano",
         "cuisine": "Mexican",
-        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "image": "/diner-dash/images/campuzano.jpeg",
         "tags": [
-            "fajitas",
-            "burritos",
-            "tacos"
+            "Fajitas",
+            "Burritos",
+            "Tacos"
         ],
         "location": "2618 Oak Lawn Ave, Dallas, TX 75219",
         "zipcode": 75219,
@@ -29,9 +29,9 @@
         "cuisine": "American",
         "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
         "tags": [
-            "burgers",
-            "sandwiches",
-            "lunch"
+            "Burgers",
+            "Sandwiches",
+            "Lunch"
         ],
         "location": "8580 TX-121, Frisco, TX 75034",
         "zipcode": 7034,
@@ -56,12 +56,11 @@
         "cuisine": "Italian",
         "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
         "tags": [
-            "pasta",
-            "pizza",
-            "fine dining"
+            "Pasta",
+            "Fine Dining"
         ],
         "location": "1617 Hi Line Dr Suite 395 Suite 390, Dallas, TX 75207",
-        "zipcode": 75270,
+        "zipcode": 75207,
         "hours": "5pm-11pm",
         "days": [
                 "TUES",
@@ -82,9 +81,8 @@
         "cuisine":"Thai",
         "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
         "tags": [
-            "pad thai",
-            "tom yum soup",
-            "spring rolls"
+            "Pad Thai",
+            "Spring Rolls"
         ],
         "location": "3851 Cedar Springs Rd, Dallas, TX 75219",
         "zipcode": 75219,
@@ -97,5 +95,284 @@
         "takeOut": true,
         "officalSite": "http://thailotuskitchen.com/",
         "phone": "(214) 520-9385"
+    },
+    {
+        "name": "Hopdoddy Burger Bar",
+        "cuisine":"American",
+        "image": "images/hopdoddy.jpeg",
+        "tags": [
+            "Burgers",
+            "Fries"
+        ],
+        "location": "3227 McKinney Ave Suite 102, Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "11AM-9PM",
+        "days": ["Mon-Sun"],
+        "reservations": false,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(214) 871-2337"
+    },
+    {
+        "name": "Monach",
+        "cuisine":"Italian",
+        "image": "images/monarch.jpeg",
+        "tags": [
+            "Steakhouses",
+            "Seafood"
+        ],
+        "location": "1401 Elm St Fl 49 Dallas, TX 75202",
+        "zipcode": 75202,
+        "hours": "5PM-9PM",
+        "days": ["Tues-Sat"],
+        "officalSite":"https://monarchrestaurants.com",
+        "reservations": true,
+        "delivery": false,
+        "takeOut": false,
+        "phone": "(214) 945-2222"
+    },
+    {
+        "name": "The Woolworth",
+        "cuisine":"American",
+        "image": "images/woolworth.jpeg",
+        "tags": [
+            "Cocktail bars",
+            "Tapas",
+            "New"
+        ],
+        "location": "1520 Elm St Ste 201 Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "4PM-11PM",
+        "days": ["Tues-Sat"],
+        "officalSite":"https://www.thewoolworthdallas.com/",
+        "reservations": true,
+        "delivery": false,
+        "takeOut": false,
+        "phone": "(214) 814-0588"
+    },
+    {
+        "name": "Meso Maya Comida y Copas",
+        "cuisine":"Mexican",
+        "image": "images/meso.jpeg",
+        "tags": [
+            "Mexican",
+            "New Mexican cuisine"
+        ],
+        "location": "1611 McKinney Ave Dallas Dallas, TX 75202",
+        "zipcode": 75202,
+        "hours": "11AM-11PM",
+        "days": ["Mon-Sun"],
+        "officalSite":"http://www.mesomaya.com",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(214) 484-6555"
+    },
+    {
+        "name": "Medocino Farms",
+        "cuisine":"American",
+        "image": "images/medocino.jpeg",
+        "tags": [
+            "Sandwiches",
+            "Salads"
+        ],
+        "location": "2000 Ross Ave Ste 160 Dallas, TX 75201",
+        "zipcode": 75201,
+        "hours": "11AM-7:30PM",
+        "days": ["Mon-Fri"],
+        "officalSite":"https://www.mendocinofarms.com",
+        "reservations": false,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(469) 526-7537"
+    },
+    {
+        "name": "XOXO Dining Room",
+        "cuisine":"American",
+        "image": "images/xoxo.jpeg",
+        "tags": [
+            "Brunch spot",
+            "Aesthetic"
+        ],
+        "location": "3121 Ross Ave Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "5PM-12AM",
+        "days": ["Tues-Sat"],
+        "officalSite":"http://www.xoxodallas.com",
+        "reservations": true,
+        "delivery": false,
+        "takeOut": true
+    },
+    {
+        "name": "Postino Deep Ellum",
+        "cuisine":"Italian",
+        "image": "images/postino.jpeg",
+        "tags": [
+            "Italian",
+            "Breakfast & Brunch"
+        ],
+        "location": "2639 Main St Ste 130 Dallas, TX 75226",
+        "zipcode": 75226,
+        "hours": "11AM-11PM",
+        "days": ["Mon-Fri"],
+        "officalSite":"https://www.postinowinecafe.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(972) 210-2102"
+    },
+    {
+        "name": "400 Gradi",
+        "cuisine":"Italian",
+        "image": "images/400.jpeg",
+        "tags": [
+            "Italian",
+            "Pizza",
+            "Wine Bars"
+        ],
+        "location": "2000 Ross Ave Ste 140 Dallas, TX 75201",
+        "zipcode": 75201,
+        "hours": "11AM-9pm",
+        "days": ["Tue-Sun"],
+        "officalSite":"https://400gradi.com",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(972) 210-2102"
+    },
+    {
+        "name": "The Charles",
+        "cuisine":"Italian",
+        "image": "images/charles.jpeg",
+        "tags": [
+            "Italian"
+        ],
+        "location": "2000 Ross Ave Ste 140 Dallas, TX 75201",
+        "zipcode": 75201,
+        "hours": "5PM-11PM",
+        "days": ["Mon-Sat"],
+        "officalSite":"https://www.thecharlesdallas.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(469) 917-9000"
+    },
+    {
+        "name": "Ka Thai",
+        "cuisine":"Thai",
+        "image": "images/kathai.jpeg",
+        "tags": [
+            "Thai",
+            "Salad",
+            "Cocktail bars"
+        ],
+        "location": "3220 Mckinney Ave Ste 120 Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "11AM-10PM",
+        "days": ["Mon-Sun"],
+        "officalSite":"https://www.kathairestaurant.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(469) 291-7995"
+    },
+    {
+        "name": "Malai Kitchen",
+        "cuisine":"Thai",
+        "image": "images/malai.jpeg",
+        "tags": [
+            "Thai",
+            "Breakfast & Brunch"
+        ],
+        "location": "3699 McKinney Ave Ste 319 Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "11AM-10PM",
+        "days": ["Mon-Sun"],
+        "officalSite":"https://www.malaikitchen.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(214) 599-7857"
+    },
+    {
+        "name": "Pakpao Thai",
+        "cuisine":"Thai",
+        "image": "images/pakpao.jpeg",
+        "tags": [
+            "Thai",
+            "Mimosa"
+        ],
+        "location": "1628 Oak Lawn Ave Ste 120 Dallas, TX 75207",
+        "zipcode": 75207,
+        "hours": "11AM-9PM",
+        "days": ["Mon-Sun"],
+        "officalSite":"https://pakpao.argconcepts.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": true,
+        "phone": "(214) 749-7002"
+    },
+    {
+        "name": "Ka-Tip",
+        "cuisine":"Thai",
+        "image": "images/katip.jpeg",
+        "tags": [
+            "Thai"
+        ],
+        "location": "1011 S Pearl Expy Ste 190 Dallas, TX 75201",
+        "zipcode": 75201,
+        "hours": "5PM-9PM",
+        "days": ["Tues-Sun"],
+        "officalSite":"https://www.katipthaidallas.com/",
+        "reservations": true,
+        "delivery": true,
+        "takeOut": false,
+        "phone": "(214) 238-2232"
+    },
+    {
+        "name": "Tacos La Banqueta",
+        "cuisine":"Mexican",
+        "image": "images/tacos.jpeg",
+        "tags": [
+            "Mexican",
+            "Tacos"
+        ],
+        "location": "1305 N Carroll Ave Dallas, TX 75204",
+        "zipcode": 75204,
+        "hours": "9AM-11PM",
+        "days": ["Mon-Sun"],
+        "takeOut": false,
+        "phone": "(214) 823-1260"
+    },
+    {
+        "name": "El Bolero",
+        "cuisine":"Mexican",
+        "image": "images/bolero.jpeg",
+        "tags": [
+            "Mexican",
+            "Flautas"
+        ],
+        "location": "1201 Oak Lawn Ave Ste 160 Dallas, TX 75207",
+        "zipcode": 75207,
+        "hours": "11AM-11PM",
+        "days": ["Mon-Sun"],
+        "takeOut": false,
+        "officialSite": "https://elbolero.argconcepts.com/design-district",
+        "phone": "(214) 741-1986"
+    },
+    {
+        "name": "Revolver Taco Lounge",
+        "cuisine":"Mexican",
+        "image": "images/revolver.jpeg",
+        "tags": [
+            "Tacos"
+        ],
+        "location": "2701 Main St Ste 120 Dallas, TX 75226",
+        "zipcode": 75226,
+        "hours": "11AM-11:30PM",
+        "days": ["Mon-Sun"],
+        "takeOut": false,
+        "officialSite": "https://revolvertacolounge.com",
+        "phone": "(214) 272-7163"
     }
 ]

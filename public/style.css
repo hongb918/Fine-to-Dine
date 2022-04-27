@@ -1,72 +1,152 @@
-.container{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+    background-color: rgb(209, 156, 87);
+    width: 100vw;
+    height: 80vh;
+}
+
+header, footer{
+    background-color:rgb(158, 119, 68);
+    padding: 1rem;
+}
+
+
+.wrapper {
+    width: 1250px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(194, 180, 161);
+    gap: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
-    grid-gap: 16px;
-}
-
-
-.cards{
-    border: 1px black solid;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    padding-top: 5px;
 }
 
-.font{
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
+.card {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(243, 226, 198);
+    overflow: hidden;
+    margin: 2rem;
 }
 
 
-.buttonContainer{
-    padding: 20px 0px;
+.card ul {
+    z-index: 99;
+    position: absolute;
+    left: 39px;
+    top: 5px;
+    list-style-type: none;
 }
 
-.button{
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
+.card li {
+      width: 2px;
+      height: 2px;
+      border-radius: 2px;
+      margin: 6px 0;
+}
+
+/* i {
+    opacity: 0;
+    font-size: 18px;
+    color: rgb(243, 234, 234);
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  } */
+/* i:hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+} */
+h3 {
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(245, 252, 247);
+  }
+
+  .card:fa-arrow-right{
+    z-index: 100;
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-size: 40px;
     cursor: pointer;
+  }
+  p {
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #333;
+    opacity: 0.7;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .pic {
+    z-index: 100;
+    width: 320px;
+    height: 200px;
+    /* background-image: url($img-url); */
+    background-size: 50% 60%;
+    /* filter: grayscale(100%); */
+  }
+
+button {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline:none;
+    transition: all 0.3s ease;
+    mix-blend-mode: hard-light;
+    background-color: rgb(17, 78, 44);
+}
+i {
+    font-size: 3rem;
 }
 
-.add {
-    background-color: #007bff;
-    color: white;
+button:hover {
+    transform: scale(16.5);
 }
 
+p:hover {
+    color: #fff;
+  }
+  
+.pic:hover {
+    filter: grayscale(0);
+  }
 
-.inputParent{
-    padding: 10px 0px;
-}
-
-.form{
-    width: 50%
-}
-
-.input{
-    width: 100%
-}
-
-.cancel{
-    background-color: red;
-    color: white;
-}
-
-.submit{
-    background-color: #007bff;
-    color: white;
-}
-
-.cardButtonsParent{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-.removeFormMargin{
-    margin: 0; 
-}
