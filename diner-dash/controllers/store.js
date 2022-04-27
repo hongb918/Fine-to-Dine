@@ -9,26 +9,26 @@ const Store = require('../models/store-model')
 router.get('/biz', (req, res) => {
     Categories.find(req.params.name)
         .then((data) => {
-            res.render('stores/index.ejs', { allCuisines: data })
+            res.render('index.ejs', { allCuisines: data, title: 'Home Page'})
         })
 })
 
 router.get('/biz/:cuisine', (req, res) => {
     Stores.find({})
         .then((data) => {
-            res.render('stores/cuisines.ejs', { cuisines: req.params.cuisine, stores: data })
+            res.render('cuisines.ejs', { cuisines: req.params.cuisine, stores: data, title: 'Diner Dash', layout: 'layout.ejs' })
         })
 })
 
 router.get('/biz/:cuisine/:name', (req, res) => {
     Store.find({})
         .then((item) => { 
-            res.render('stores/stores.ejs', { name: req.params.name, store: item})
+            res.render('stores.ejs', { name: req.params.name, store: item, title: 'Diner Dash'})
         })
 })
 
 router.get('/new', (req, res) => {
-    res.render('stores/new.ejs');
+    res.render('new.ejs', {title: 'New Restaurant'});
 })
 
 router.post('/add', (req, res) => {
@@ -38,7 +38,7 @@ router.post('/add', (req, res) => {
 
 router.get('/:id', (req,res) => {
     Stores.findById(req.params.id) 
-    .then((store) => res.render('stores/edit', store))
+    .then((store) => res.render('edit.ejs', store))
 })
 
 router.put('/:id', (req, res) => {

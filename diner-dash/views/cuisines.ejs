@@ -1,0 +1,26 @@
+<link rel="stylesheet" type="text/css" href="/style.css">
+<h2> Amazing local <%=cuisines%> restaurants</h2>
+<!-- <div class="sidebar">
+    <div class="buttonContainer">
+        <a class="button font" href="/biz">Home</a>
+        <a class="button add font" href="/new">Add</a>
+    </div>
+</div> -->
+<div class="container">
+    <ul>
+        <% stores.forEach(store=> { %>
+            <% if (store.cuisine===cuisines ) { %>
+                <div class="card">
+                    <a href="/biz/<%=store.cuisine%>/<%=store.name%>">
+                        <%= store.name %>
+                    </a>
+                    <div class="cardButtonsParent">
+                        <form class='removeFormMargin' action="/<%=store.id%>?_method=DELETE" method="POST">
+                            <input class="button cancel font" type="submit" value="Delete" />
+                        </form>
+                    </div>
+                </div>
+                <% }%>
+                    <% }) %>
+    </ul>
+</div>
