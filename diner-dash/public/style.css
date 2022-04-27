@@ -150,3 +150,31 @@ p:hover {
     filter: grayscale(0);
   }
 
+header {
+	display: grid;
+	grid-template-columns: min-content 2fr 1.3fr;
+}
+
+.name {
+    display: grid;
+	grid: repeat(2, 60px) / repeat(3, 60px);
+	font-weight: 700;
+	font-size: 2.5rem;
+	border: 6px solid black;
+	border-width: 6px 6px 0;
+	color: rgb(252, 252, 0);
+	text-align: center;
+	grid-column: span 3;
+	background: repeating-linear-gradient(
+		90deg,
+		black 0px,
+		black 5px,
+		transparent 5px,
+		transparent 10px
+    )
+}
+
+/* @media(min-width: 550px) {
+    grid-column: span 1;
+    background: $black;
+} */
