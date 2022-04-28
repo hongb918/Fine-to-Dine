@@ -1,15 +1,29 @@
 <link rel="stylesheet" type="text/css" href="/style.css">
-    <%= name %>
-    <% store.forEach(store=> { %>
-        <% if (store.name===name ) { %>
-            <br>
-            <%=store.location %>
-            <br>
-            <span class="tags"><%=store.tags %></span>
-            <br>
-            <%=store.hours %>
-            <div class="cardButtonsParent">
-                <a class="button submit font" href="/<%=store.id%>">Edit</a>
-            </div>
-        <% } %>
-    <% }) %>
+<div class="wrapper">
+    <div class="container">
+        <div class="center">
+            <article id="store-card" class="store-card">
+                <% store.forEach(store=> { %>
+                    <% if (store.name===name ) { %>
+                        <figure class="store-image">
+                            <img src="<%=store.image%>">
+                        </figure>
+                        <div class="store-content">
+                            <header class="store-header">
+                                <h2><%= name %></h2>
+                                <address>
+                                    <span class="icon-pin" aria-hidden="true"></span>
+                                    <%=store.location %>
+                                </address>
+                                <span class="tags"><%=store.tags %></span>
+                                <%=store.hours %>
+                            </header>
+                        </div>
+                        <a class="button submit font store-button" href="/<%=store.id%>">Edit</a>
+                    <% } %>
+                    <% }) %>
+            </article>
+        </div>
+    </div>
+</div>
+    
