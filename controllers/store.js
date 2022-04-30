@@ -43,7 +43,8 @@ router.get('/:id', (req, res) => {
 
 router.put('/:id', (req, res) => {
     Stores.findByIdAndUpdate({ _id: req.params.id }, req.body)
-        .then((store) => res.redirect('/biz'))
+        .then((store) =>
+            res.redirect('/biz'))
 })
 
 router.delete('/:id', (req, res) => {
