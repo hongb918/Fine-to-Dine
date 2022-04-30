@@ -18,9 +18,9 @@ app.use(storeController)
 app.set('view engine', 'ejs')
 app.set("port", process.env.PORT || 5001);
 
-/* app.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.redirect('/biz')
-}) */
+})
 
 app.listen(app.get("port"), () => {
     console.log(`✅ PORT: ${app.get("port")} 🌟`)
