@@ -30,5 +30,15 @@ Edit Page
 ## Link to apps
 
 ## Results View
+Home Page
+![Screen Shot 2022-04-30 at 2 54 41 AM](https://user-images.githubusercontent.com/95890211/166097124-1793f6a3-29a9-4b6f-8a18-b33bd1a9f464.png)
+
+Index 1
+![Screen Shot 2022-04-30 at 2 55 47 AM](https://user-images.githubusercontent.com/95890211/166097149-a21e1b70-6d38-463e-9fb2-c11b86f7d548.png)
+![Screen Shot 2022-04-30 at 2 56 17 AM](https://user-images.githubusercontent.com/95890211/166097161-94b7fd49-c18c-42d8-ab97-2b03efbd8dfb.png)
+Edit Page
+![Screen Shot 2022-04-30 at 2 56 36 AM](https://user-images.githubusercontent.com/95890211/166097171-e3877703-cc71-4371-ac6c-062c93391645.png)
+Add Page![Screen Shot 2022-04-30 at 2 57 02 AM](https://user-images.githubusercontent.com/95890211/166097189-faa70240-3afe-49a9-964e-b91958e13e5e.png)
 
 ## Learning Moments
+- Commit every milestone
