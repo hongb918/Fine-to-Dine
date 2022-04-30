@@ -12,6 +12,9 @@ router.get('/biz', (req, res) => {
             res.render('index.ejs', { allCuisines: data, title: 'Home Page' })
         })
 })
+router.get('/favicon.ico', (req,res) => {
+    res.send('okay')
+})
 
 router.get('/biz/:cuisine', (req, res) => {
     Stores.find({})
