@@ -11,6 +11,7 @@ router.get('/biz', (req, res) => {
         .then((data) => {
             res.render('index.ejs', { allCuisines: data, title: 'Home Page' })
         })
+        .catch(console.error)
 })
 router.get('/favicon.ico', (req,res) => {
     res.send('okay')
