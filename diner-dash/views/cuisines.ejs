@@ -2,8 +2,8 @@
 
 <section class="wrapper">
     <h2>
-        Amazing local
-        <%=cuisines%> restaurants
+        Most Popular
+        <%=cuisines%> Restaurants
     </h2>
 
     <div class="container">
@@ -19,16 +19,16 @@
                     <% if (store.cuisine===cuisines ) { %>
                         <div class="store-card">
                             <a href="/biz/<%=store.cuisine%>/<%=store.name%>">
-                                    <img src="<%=store.image%>">
+                                <img src="<%=store.image%>">
                                 <div class="store-content">
-
                                     <p><b><u><%= store.name %></u></b></p>
                                     <i><%= store.location %></i>
                                 </div>
                             </a>
+
                             <div class="cardButtonsParent">
                                 <form class='removeFormMargin' action="/<%=store.id%>?_method=DELETE" method="POST">
-                                    <input class="button cancel font" type="submit" value="Delete" />
+                                    <input class="cancel-button" type="submit" value="Delete" />
                                 </form>
                             </div>
                         </div>

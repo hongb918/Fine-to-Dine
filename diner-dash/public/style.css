@@ -9,6 +9,7 @@ body {
     background-color: #a8D0E6;
     width: 100vw;
     height: 80vh;
+    font-family: 'Rubik', sans-serif;
 }
 
 header,
@@ -19,6 +20,10 @@ footer {
     width: 1250px;
     padding: 5px;
     margin: 0 auto;
+}
+
+footer {
+    bottom: 1rem;
 }
 
 .wrapper {
@@ -143,8 +148,9 @@ header {
 .name {
     font-weight: 700;
     font-size: 60px;
-    color: #efe2ba;
+    color: #d65737;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .store-card {
@@ -153,8 +159,9 @@ header {
     padding-bottom: 1.3125em;
     color: #917f54ee;
     font-size: 1rem;
-    background-color: rgba(204, 162, 100, 0.603);
-    border-radius: .3125em;
+    background-color: #DAAD86;
+    border-radius: .5em;
+    border: white solid 2px;
     box-shadow: 0 .625em 2em 0 rgba(#bbb, .2);
 }
 
@@ -232,4 +239,42 @@ span {
 
 .store-button:active {
     background: #67a86a;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.submit-button {
+    position: absolute;
+    top: 12rem;
+    left: 70%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: .75em 3em;
+    color: rgb(238, 224, 204);
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #83bb83 0%, #1b6138 100%);
+    border-radius: 1.5em;
+    box-shadow: 0 .5em 1em 0 rgba(#bbb, .2);
+    cursor: pointer;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 12rem;
+    left: 30%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: .75em 3em;
+    color: rgb(238, 224, 204);
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #e0a9a9 0%, #bb2525 100%);
+    border-radius: 1.5em;
+    box-shadow: 0 .5em 1em 0 rgba(#bbb, .2);
+    cursor: pointer;
 }

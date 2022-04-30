@@ -17,8 +17,15 @@
                                     <span class="icon-pin" aria-hidden="true"></span>
                                     <%=store.location %>
                                 </address>
-                                <span class="tags"><%=store.tags%></span>
-                                <%=store.hours %>
+                                <span class="tags">
+                                    <%=store.hours %>
+                                    <br>
+                                    <%=store.days%>
+                                    <br>
+                                    <%-store.phone%>
+                                    <br>
+                                    <%=store.officalSite%>
+                                </span>
                             </div>
                         </div>
                         <a class="button submit font store-button" href="/<%=store.id%>">Edit</a>
