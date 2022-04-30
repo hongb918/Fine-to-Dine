@@ -1,20 +1,21 @@
 <div class="wrapper">
-    <!-- <h2> Home </h2> -->
     <div class="container">
         <ul>
             <% for(let i=0; i < allCuisines.length; i++) { %>
-                <div class ="card">
+                <div class="card">
                     <i class="fas fa-arrow-right"></i>
                     <li>
-                    <p>Let's find delicious <%=allCuisines[i].name%> foods near you!</p>
-                    <a href="/biz/<%=allCuisines[i].name%>">
-                        <h3><%=allCuisines[i].name %></h3>
-                        <img class="pic" src="<%=allCuisines[i].img%>">
-                    </a>    
+                        <p>Let's find delicious
+                            <%=allCuisines[i].name%> foods near you!</p>
+                        <a href="/biz/<%=allCuisines[i].name%>">
+                            <h3>
+                                <%=allCuisines[i].name %>
+                            </h3>
+                            <img class="pic" src="<%=allCuisines[i].img%>">
+                        </a>
                     </li>
                 </div>
-            <% } %>
+                <% } %>
         </ul>
     </div>
 </div>
-

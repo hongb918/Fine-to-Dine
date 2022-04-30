@@ -9,7 +9,7 @@ const Store = require('../models/store-model')
 router.get('/biz', (req, res) => {
     Categories.find(req.params.name)
         .then((data) => {
-            res.render('index.ejs', { allCuisines: data, title: 'Home Page'})
+            res.render('index.ejs', { allCuisines: data, title: 'Home Page' })
         })
 })
 
@@ -22,34 +22,33 @@ router.get('/biz/:cuisine', (req, res) => {
 
 router.get('/biz/:cuisine/:name', (req, res) => {
     Store.find({})
-        .then((item) => { 
-            res.render('stores.ejs', { name: req.params.name, store: item, title: 'Diner Dash'})
+        .then((item) => {
+            res.render('stores.ejs', { name: req.params.name, store: item, title: 'Diner Dash' })
         })
 })
 
 router.get('/new', (req, res) => {
-    res.render('new.ejs', {title: 'New Restaurant'});
+    res.render('new.ejs', { title: 'New Restaurant' });
 })
 
 router.post('/add', (req, res) => {
     Stores.create(req.body)
-    .then(res.redirect('/biz'))
+        .then(res.redirect('/biz'))
 })
 
-router.get('/:id', (req,res) => {
-    Stores.findById(req.params.id) 
-    .then((store) => res.render('edit.ejs', store))
+router.get('/:id', (req, res) => {
+    Stores.findById(req.params.id)
+        .then((store) => res.render('edit.ejs', store))
 })
 
 router.put('/:id', (req, res) => {
     Stores.findByIdAndUpdate({ _id: req.params.id }, req.body)
-    .then((store) => res.redirect('/biz'))
+        .then((store) => res.redirect('/biz'))
 })
 
 router.delete('/:id', (req, res) => {
     Stores.findByIdAndRemove({ _id: req.params.id })
-    .then((items) => res.redirect('/biz')
-    );
+        .then((items) => res.redirect('/biz'));
 });
 
 
