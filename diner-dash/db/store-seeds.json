@@ -1,8 +1,7 @@
-[
-    {
+[{
         "name": "Campuzano",
         "cuisine": "Mexican",
-        "image": "/diner-dash/images/campuzano.jpeg",
+        "image": "https://i.imgur.com/WzIuqbe.jpg",
         "tags": [
             "Fajitas",
             "Burritos",
@@ -12,11 +11,11 @@
         "zipcode": 75219,
         "hours": "10AM-10:20PM",
         "days": [
-                "TUES",
-                "WED",
-                "THUR",
-                "FRI",
-                "SAT"
+            "TUES",
+            "WED",
+            "THUR",
+            "FRI",
+            "SAT"
         ],
         "reservations": true,
         "delivery": false,
@@ -25,9 +24,9 @@
         "phone": "(214) 526-0100"
     },
     {
-        "name": "Guy Fieri's Flavortown Kitchen",
+        "name": "The Porch",
         "cuisine": "American",
-        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "image": "https://i.imgur.com/3whRF1G.jpg",
         "tags": [
             "Burgers",
             "Sandwiches",
@@ -37,24 +36,23 @@
         "zipcode": 7034,
         "hours": "11AM-10PM",
         "days": [
-                "MON",
-                "TUES",
-                "WED",
-                "THUR",
-                "FRI",
-                "SAT",
-                "SUNDAY"
-            ]
-        ,
+            "MON",
+            "TUES",
+            "WED",
+            "THUR",
+            "FRI",
+            "SAT",
+            "SUNDAY"
+        ],
         "reservations": false,
         "delivery": false,
         "takeOut": false,
-        "officalSite": "guysflavortownkitchen.com"
+        "officalSite": "http://www.theporchrestaurant.com/"
     },
     {
         "name": "Carbone",
         "cuisine": "Italian",
-        "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
+        "image": "https://i.imgur.com/irFRj6i.jpg",
         "tags": [
             "Pasta",
             "Fine Dining"
@@ -63,13 +61,13 @@
         "zipcode": 75207,
         "hours": "5pm-11pm",
         "days": [
-                "TUES",
-                "WED",
-                "THUR",
-                "FRI",
-                "SAT",
-                "SUN"
-            ],
+            "TUES",
+            "WED",
+            "THUR",
+            "FRI",
+            "SAT",
+            "SUN"
+        ],
         "reservations": true,
         "delivery": false,
         "takeOut": true,
@@ -78,7 +76,7 @@
     },
     {
         "name": "Thai Lotus Kitchen",
-        "cuisine":"Thai",
+        "cuisine": "Thai",
         "image": "/diner-dash/images/Exterior-of-Campuzano-restaurant-in-Dallas_084758.jpeg",
         "tags": [
             "Pad Thai",
@@ -88,8 +86,8 @@
         "zipcode": 75219,
         "hours": "11AM-10PM",
         "days": [
-                "Everyday"
-            ],
+            "Everyday"
+        ],
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -98,7 +96,7 @@
     },
     {
         "name": "Hopdoddy Burger Bar",
-        "cuisine":"American",
+        "cuisine": "American",
         "image": "images/hopdoddy.jpeg",
         "tags": [
             "Burgers",
@@ -115,8 +113,8 @@
     },
     {
         "name": "Monach",
-        "cuisine":"Italian",
-        "image": "images/monarch.jpeg",
+        "cuisine": "Italian",
+        "image": "https://i.imgur.com/LrYNnQK.jpg",
         "tags": [
             "Steakhouses",
             "Seafood"
@@ -125,7 +123,7 @@
         "zipcode": 75202,
         "hours": "5PM-9PM",
         "days": ["Tues-Sat"],
-        "officalSite":"https://monarchrestaurants.com",
+        "officalSite": "https://monarchrestaurants.com",
         "reservations": true,
         "delivery": false,
         "takeOut": false,
@@ -133,8 +131,8 @@
     },
     {
         "name": "The Woolworth",
-        "cuisine":"American",
-        "image": "images/woolworth.jpeg",
+        "cuisine": "American",
+        "image": "https://i.imgur.com/s4wW237.jpg",
         "tags": [
             "Cocktail bars",
             "Tapas",
@@ -144,7 +142,7 @@
         "zipcode": 75204,
         "hours": "4PM-11PM",
         "days": ["Tues-Sat"],
-        "officalSite":"https://www.thewoolworthdallas.com/",
+        "officalSite": "https://www.thewoolworthdallas.com/",
         "reservations": true,
         "delivery": false,
         "takeOut": false,
@@ -152,8 +150,8 @@
     },
     {
         "name": "Meso Maya Comida y Copas",
-        "cuisine":"Mexican",
-        "image": "images/meso.jpeg",
+        "cuisine": "Mexican",
+        "image": "https://i.imgur.com/of7ZESg.jpg",
         "tags": [
             "Mexican",
             "New Mexican cuisine"
@@ -162,7 +160,7 @@
         "zipcode": 75202,
         "hours": "11AM-11PM",
         "days": ["Mon-Sun"],
-        "officalSite":"http://www.mesomaya.com",
+        "officalSite": "http://www.mesomaya.com",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -170,8 +168,8 @@
     },
     {
         "name": "Medocino Farms",
-        "cuisine":"American",
-        "image": "images/medocino.jpeg",
+        "cuisine": "American",
+        "image": "https://i.imgur.com/YWfhrY5.jpg",
         "tags": [
             "Sandwiches",
             "Salads"
@@ -180,7 +178,7 @@
         "zipcode": 75201,
         "hours": "11AM-7:30PM",
         "days": ["Mon-Fri"],
-        "officalSite":"https://www.mendocinofarms.com",
+        "officalSite": "https://www.mendocinofarms.com",
         "reservations": false,
         "delivery": true,
         "takeOut": true,
@@ -188,8 +186,8 @@
     },
     {
         "name": "XOXO Dining Room",
-        "cuisine":"American",
-        "image": "images/xoxo.jpeg",
+        "cuisine": "American",
+        "image": "https://i.imgur.com/odCjXa6.jpg",
         "tags": [
             "Brunch spot",
             "Aesthetic"
@@ -198,15 +196,15 @@
         "zipcode": 75204,
         "hours": "5PM-12AM",
         "days": ["Tues-Sat"],
-        "officalSite":"http://www.xoxodallas.com",
+        "officalSite": "http://www.xoxodallas.com",
         "reservations": true,
         "delivery": false,
         "takeOut": true
     },
     {
         "name": "Postino Deep Ellum",
-        "cuisine":"Italian",
-        "image": "images/postino.jpeg",
+        "cuisine": "Italian",
+        "image": "https://i.imgur.com/UJW0bB9.jpg",
         "tags": [
             "Italian",
             "Breakfast & Brunch"
@@ -215,7 +213,7 @@
         "zipcode": 75226,
         "hours": "11AM-11PM",
         "days": ["Mon-Fri"],
-        "officalSite":"https://www.postinowinecafe.com/",
+        "officalSite": "https://www.postinowinecafe.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -223,8 +221,8 @@
     },
     {
         "name": "400 Gradi",
-        "cuisine":"Italian",
-        "image": "images/400.jpeg",
+        "cuisine": "Italian",
+        "image": "https://i.imgur.com/YlXi5Sc.jpg",
         "tags": [
             "Italian",
             "Pizza",
@@ -234,7 +232,7 @@
         "zipcode": 75201,
         "hours": "11AM-9pm",
         "days": ["Tue-Sun"],
-        "officalSite":"https://400gradi.com",
+        "officalSite": "https://400gradi.com",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -242,8 +240,8 @@
     },
     {
         "name": "The Charles",
-        "cuisine":"Italian",
-        "image": "images/charles.jpeg",
+        "cuisine": "Italian",
+        "image": "https://i.imgur.com/aa33xh5.jpg",
         "tags": [
             "Italian"
         ],
@@ -251,7 +249,7 @@
         "zipcode": 75201,
         "hours": "5PM-11PM",
         "days": ["Mon-Sat"],
-        "officalSite":"https://www.thecharlesdallas.com/",
+        "officalSite": "https://www.thecharlesdallas.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -259,8 +257,8 @@
     },
     {
         "name": "Ka Thai",
-        "cuisine":"Thai",
-        "image": "images/kathai.jpeg",
+        "cuisine": "Thai",
+        "image": "https://i.imgur.com/tQl5356.jpg",
         "tags": [
             "Thai",
             "Salad",
@@ -270,7 +268,7 @@
         "zipcode": 75204,
         "hours": "11AM-10PM",
         "days": ["Mon-Sun"],
-        "officalSite":"https://www.kathairestaurant.com/",
+        "officalSite": "https://www.kathairestaurant.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -278,8 +276,8 @@
     },
     {
         "name": "Malai Kitchen",
-        "cuisine":"Thai",
-        "image": "images/malai.jpeg",
+        "cuisine": "Thai",
+        "image": "https://i.imgur.com/fzSuXtG.jpg",
         "tags": [
             "Thai",
             "Breakfast & Brunch"
@@ -288,7 +286,7 @@
         "zipcode": 75204,
         "hours": "11AM-10PM",
         "days": ["Mon-Sun"],
-        "officalSite":"https://www.malaikitchen.com/",
+        "officalSite": "https://www.malaikitchen.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -296,8 +294,8 @@
     },
     {
         "name": "Pakpao Thai",
-        "cuisine":"Thai",
-        "image": "images/pakpao.jpeg",
+        "cuisine": "Thai",
+        "image": "https://i.imgur.com/UqzK0Im.jpg",
         "tags": [
             "Thai",
             "Mimosa"
@@ -306,7 +304,7 @@
         "zipcode": 75207,
         "hours": "11AM-9PM",
         "days": ["Mon-Sun"],
-        "officalSite":"https://pakpao.argconcepts.com/",
+        "officalSite": "https://pakpao.argconcepts.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": true,
@@ -314,8 +312,8 @@
     },
     {
         "name": "Ka-Tip",
-        "cuisine":"Thai",
-        "image": "images/katip.jpeg",
+        "cuisine": "Thai",
+        "image": "https://i.imgur.com/Y7cKbeW.jpg",
         "tags": [
             "Thai"
         ],
@@ -323,7 +321,7 @@
         "zipcode": 75201,
         "hours": "5PM-9PM",
         "days": ["Tues-Sun"],
-        "officalSite":"https://www.katipthaidallas.com/",
+        "officalSite": "https://www.katipthaidallas.com/",
         "reservations": true,
         "delivery": true,
         "takeOut": false,
@@ -331,8 +329,8 @@
     },
     {
         "name": "Tacos La Banqueta",
-        "cuisine":"Mexican",
-        "image": "images/tacos.jpeg",
+        "cuisine": "Mexican",
+        "image": "https://i.imgur.com/9ZJa4gq.jpg",
         "tags": [
             "Mexican",
             "Tacos"
@@ -346,8 +344,8 @@
     },
     {
         "name": "El Bolero",
-        "cuisine":"Mexican",
-        "image": "images/bolero.jpeg",
+        "cuisine": "Mexican",
+        "image": "https://i.imgur.com/400QND8.jpg",
         "tags": [
             "Mexican",
             "Flautas"
@@ -362,8 +360,8 @@
     },
     {
         "name": "Revolver Taco Lounge",
-        "cuisine":"Mexican",
-        "image": "images/revolver.jpeg",
+        "cuisine": "Mexican",
+        "image": "https://i.imgur.com/JoVazCk.jpg",
         "tags": [
             "Tacos"
         ],

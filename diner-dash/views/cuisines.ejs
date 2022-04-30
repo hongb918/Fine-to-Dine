@@ -1,26 +1,41 @@
-<link rel="stylesheet" type="text/css" href="/style.css">
-<h2> Amazing local <%=cuisines%> restaurants</h2>
-<!-- <div class="sidebar">
-    <div class="buttonContainer">
-        <a class="button font" href="/biz">Home</a>
-        <a class="button add font" href="/new">Add</a>
+<link rel="stylesheet" type="text/css" href="/main.css">
+
+<section class="wrapper">
+    <h2>
+        Amazing local
+        <%=cuisines%> restaurants
+    </h2>
+
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li><a class="button font" href="/biz">Home</a></li>
+                <li><a class="button add font" href="/new">Add</a></li>
+            </ul>
+        </div>
+        <ul>
+            <div class="grid-container">
+                <% stores.forEach(store=> { %>
+                    <% if (store.cuisine===cuisines ) { %>
+                        <div class="store-card">
+                            <a href="/biz/<%=store.cuisine%>/<%=store.name%>">
+                                    <img src="<%=store.image%>">
+                                <div class="store-content">
+
+                                    <p><b><u><%= store.name %></u></b></p>
+                                    <i><%= store.location %></i>
+                                </div>
+                            </a>
+                            <div class="cardButtonsParent">
+                                <form class='removeFormMargin' action="/<%=store.id%>?_method=DELETE" method="POST">
+                                    <input class="button cancel font" type="submit" value="Delete" />
+                                </form>
+                            </div>
+                        </div>
+                        <% }%>
+                            <% }) %>
+            </div>
+        </ul>
     </div>
-</div> -->
-<div class="container">
-    <ul>
-        <% stores.forEach(store=> { %>
-            <% if (store.cuisine===cuisines ) { %>
-                <div class="card">
-                    <a href="/biz/<%=store.cuisine%>/<%=store.name%>">
-                        <%= store.name %>
-                    </a>
-                    <div class="cardButtonsParent">
-                        <form class='removeFormMargin' action="/<%=store.id%>?_method=DELETE" method="POST">
-                            <input class="button cancel font" type="submit" value="Delete" />
-                        </form>
-                    </div>
-                </div>
-                <% }%>
-                    <% }) %>
-    </ul>
-</div>
+    </article>
+</section>

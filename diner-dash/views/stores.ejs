@@ -9,21 +9,22 @@
                             <img src="<%=store.image%>">
                         </figure>
                         <div class="store-content">
-                            <header class="store-header">
-                                <h2><%= name %></h2>
+                            <div class="store-header">
+                                <h2>
+                                    <%= name %>
+                                </h2>
                                 <address>
                                     <span class="icon-pin" aria-hidden="true"></span>
                                     <%=store.location %>
                                 </address>
-                                <span class="tags"><%=store.tags %></span>
+                                <span class="tags"><%=store.tags%></span>
                                 <%=store.hours %>
-                            </header>
+                            </div>
                         </div>
                         <a class="button submit font store-button" href="/<%=store.id%>">Edit</a>
-                    <% } %>
-                    <% }) %>
+                        <% } %>
+                            <% }) %>
             </article>
         </div>
     </div>
 </div>
-    
