@@ -10,7 +10,7 @@ app.use(ejsLayouts)
 app.use(express.static('public'))
 app.use(methodOverride('_method'))
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use(express.static(__dirname + 'public/images'))
 app.use(storeController)
@@ -18,13 +18,10 @@ app.use(storeController)
 app.set('view engine', 'ejs')
 app.set("port", process.env.PORT || 5001);
 
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
     res.redirect('/biz')
-})
+}) */
 
 app.listen(app.get("port"), () => {
     console.log(`✅ PORT: ${app.get("port")} 🌟`)
 })
-
-
-
