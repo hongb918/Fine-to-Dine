@@ -1,4 +1,4 @@
-# Dash-Dine
+# Fine to Dine
 
 ## User-stories
 
