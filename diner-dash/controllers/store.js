@@ -6,6 +6,7 @@ const Categories = require('../models/category-model')
 const Store = require('../models/store-model')
 
 
+
 router.get('/biz', (req, res) => {
     Categories.find(req.params.name)
         .then((data) => {
@@ -13,7 +14,8 @@ router.get('/biz', (req, res) => {
         })
         .catch(console.error)
 })
-router.get('/favicon.ico', (req,res) => {
+
+router.get('/favicon.ico', (req, res) => {
     res.send('okay')
 })
 
@@ -43,6 +45,7 @@ router.post('/add', (req, res) => {
 router.get('/:id', (req, res) => {
     Stores.findById(req.params.id)
         .then((store) => res.render('edit.ejs', store))
+        // .catch(res.send('error'))
 })
 
 router.put('/:id', (req, res) => {
