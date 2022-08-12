@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Mexican",
+        "img": "https://i.imgur.com/mkeEd2L.jpg"
+    },
+    {
+        "name":"Italian",
+        "img": "https://i.imgur.com/o3SVR8f.jpg"
+    },
+    {
+        "name":"Thai",
+        "img": "https://i.imgur.com/Z4LsV2g.jpg"
+    },
+    {
+        "name":"American",
+        "img":"https://i.imgur.com/Zcaaqa0.jpg"
+    }
+]

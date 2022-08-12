@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="/style.css">
+<div class="wrapper">
+    <div class="container">
+        <div class="center">
+            <article id="store-card" class="store-card">
+                <% store.forEach(store=> { %>
+                    <% if (store.name===name ) { %>
+                        <figure class="store-image">
+                            <img src="<%=store.image%>">
+                        </figure>
+                        <div class="store-content">
+                            <div class="store-header">
+                                <h2>
+                                    <%= name %>
+                                </h2>
+                                <address>
+                                    <span class="icon-pin" aria-hidden="true"></span>
+                                    <%=store.location %>
+                                </address>
+                                <span class="tags">
+                                    <%=store.hours %>
+                                    <br>
+                                    <%=store.days%>
+                                    <br>
+                                    <%-store.phone%>
+                                    <br>
+                                    <%=store.officalSite%>
+                                </span>
+                            </div>
+                        </div>
+                        <a class="button submit font store-button" href="/<%=store.id%>">Edit</a>
+                        <% } %>
+                            <% }) %>
+            </article>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #a8D0E6;
+    width: 100vw;
+    height: 80vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+header,
+footer {
+    color: #e85a4f;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 1250px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+footer {
+    bottom: 1rem;
+}
+
+.wrapper {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: #eae7dc;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.card ul {
+    z-index: 99;
+    position: absolute;
+    left: 39px;
+    top: 5px;
+    list-style-type: none;
+}
+
+.card li {
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    margin: 6px 0;
+}
+
+h3 {
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+}
+
+.card:fa-arrow-right {
+    z-index: 100;
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+p {
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #333;
+    opacity: 0.7;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.pic {
+    z-index: 100;
+    width: 320px;
+    height: 200px;
+    /* background-image: url($img-url); */
+    background-size: 50% 60%;
+    /* filter: grayscale(100%); */
+}
+
+button {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    mix-blend-mode: hard-light;
+    background-color: rgba(16, 105, 56, 0.829);
+}
+
+i {
+    font-size: 3rem;
+}
+
+button:hover {
+    transform: scale(5.5);
+}
+
+p:hover {
+    color: #fff;
+}
+
+.pic:hover {
+    filter: grayscale(0);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    grid-template-rows: min-content .2fr .2fr;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 60px;
+    color: #d65737;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.store-card {
+    position: relative;
+    max-width: 22.5em;
+    padding-bottom: 1.3125em;
+    color: #917f54ee;
+    font-size: 1rem;
+    background-color: #DAAD86;
+    border-radius: .5em;
+    border: white solid 2px;
+    box-shadow: 0 .625em 2em 0 rgba(#bbb, .2);
+}
+
+.store-image {
+    border-radius: .3125em .3125em 0 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.store-content {
+    padding: 1.3125em;
+}
+
+.store-header {
+    padding-bottom: 1.3125em;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 1.3125em;
+    text-align: center;
+    margin-top: 0;
+}
+
+address {
+    margin-bottom: 1em;
+    font-style: normal;
+}
+
+.icon-pin {
+    margin-bottom: 1em;
+    font-style: normal;
+    color: #5a8a8a;
+}
+
+span {
+    font-size: .8em;
+}
+
+.center {
+    margin-top: 5px;
+    margin-bottom: 8rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.store-button {
+    position: absolute;
+    bottom: -1.3125em;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: .75em 3em;
+    color: rgb(238, 224, 204);
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #83bb83 0%, #1b6138 100%);
+    border-radius: 1.5em;
+    box-shadow: 0 .5em 1em 0 rgba(#bbb, .2);
+    cursor: pointer;
+}
+
+.store-button:hover,
+.store-button:focus {
+    background: #968523;
+}
+
+.store-button:active {
+    background: #67a86a;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.submit-button {
+    position: absolute;
+    top: 12rem;
+    left: 70%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: .75em 3em;
+    color: rgb(238, 224, 204);
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #83bb83 0%, #1b6138 100%);
+    border-radius: 1.5em;
+    box-shadow: 0 .5em 1em 0 rgba(#bbb, .2);
+    cursor: pointer;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 12rem;
+    left: 30%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: .75em 3em;
+    color: rgb(238, 224, 204);
+    font-size: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #e0a9a9 0%, #bb2525 100%);
+    border-radius: 1.5em;
+    box-shadow: 0 .5em 1em 0 rgba(#bbb, .2);
+    cursor: pointer;
+}
